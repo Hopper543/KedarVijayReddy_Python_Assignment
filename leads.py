@@ -199,7 +199,7 @@ def main():
     p.add_argument("-q", default="location:hyderabad followers:>300 type:user",
                    help="github user search query")
     p.add_argument("-n", type=int, default=30, help="number of leads")
-    p.add_argument("-o", "--out", default="output/leads.xlsx")
+    p.add_argument("-o", "--out", default="output/KedarVijayReddy_Python_Assignment.xlsx")
     p.add_argument("--sheet", help="also push to this google sheet (needs creds.json)")
     p.add_argument("--every", type=float, help="rerun every N hours")
     a = p.parse_args()

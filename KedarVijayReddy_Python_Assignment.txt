@@ -1,0 +1,8 @@
+Kedar Vijay Reddy - Python Assignment (Lead Generation Automation)
+
+GitHub: https://github.com/Hopper543/KedarVijayReddy_Python_Assignment
+
+I used the GitHub REST API (search + user profiles) as the data source since it's public and has the fields we need: name, email, website, location, company. The data is loaded into pandas and cleaned up. That means trimming spaces, fixing URLs, checking emails, finding emails and LinkedIn links written in bios, removing duplicates, and filling empty fields with "N/A".
+The results go into a formatted Excel file with a Leads sheet and a Summary sheet. It can also push to a Google Sheet.
+Extras: if a lead has their own domain, the script guesses possible emails (first@, first.last@, flast@). It also has a --every flag to rerun on a schedule, and it waits by itself when it hits the API's request limit.
+Tools: Python, requests, pandas, openpyxl, gspread (optional).

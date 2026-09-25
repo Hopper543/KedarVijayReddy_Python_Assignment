@@ -33,7 +33,7 @@ python leads.py --sheet "Leads"                   # also push to google sheets
 Any [GitHub user search query](https://docs.github.com/en/search-github/searching-on-github/searching-users) works with `-q`. For example, `type:org` gets companies and orgs instead of people.
 
 Output:
-- `output/leads.xlsx` has the cleaned leads plus a summary sheet
+- `output/KedarVijayReddy_Python_Assignment.xlsx` has the cleaned leads plus a summary sheet
 - `output/raw.csv` has the raw data before cleaning
 
 ### Google Sheets
